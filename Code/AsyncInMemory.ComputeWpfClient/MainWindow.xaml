@@ -7,13 +7,12 @@
                  mc:Ignorable="d"
                  Title="WPF Async Compute Example"
                  TitleCharacterCasing="Normal"
-                 Width="400"
-                 Height="450"
+                 Width="360"
+                 Height="240"
                  WindowStartupLocation="CenterScreen"
                  Background="{StaticResource MahApps.Brushes.Window.Background}">
-    <StackPanel HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-        <TextBlock>Calculate the Lowest Common Multiple</TextBlock>
+    <StackPanel Margin="20">
+        <TextBlock FontWeight="Bold">Calculate the Lowest Common Multiple</TextBlock>
         <StackPanel Orientation="Horizontal"
                     Margin="0 4 0 8">
             <TextBlock VerticalAlignment="Center"
@@ -26,10 +25,12 @@
             </TextBox>
         </StackPanel>
         <Button Margin="0 0 0 20"
-                Click="CalculateOnUiThread">
+                Click="CalculateOnBackgroundThreadDecompiled">
             Calculate
         </Button>
-        <mah:ProgressRing Margin="0 0 0 20" />
-        <TextBlock x:Name="ResultTextBlock" />
+        <mah:ProgressRing x:Name="ProgressRing"
+                          Margin="0 0 0 20" />
+        <TextBlock x:Name="ResultTextBlock"
+                   TextWrapping="Wrap" />
     </StackPanel>
 </mah:MetroWindow>
