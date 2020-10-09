@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleExample", "SimpleExam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Async Compute in WPF", "1 Async Compute in WPF", "{663ED9AB-CF48-4668-AEA1-5ECCF1AA8DB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Benchmarks", "3 Benchmarks", "{DAB42C03-616E-4E0D-AB14-F2331D29C461}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{704A1447-4735-4CA9-A4DE-611687B3F8E5} = {663ED9AB-CF48-4668-AEA1-5ECCF1AA8DB7}
+		{B5FD6B1D-C32D-4D65-A413-2608E04B0DBE} = {DAB42C03-616E-4E0D-AB14-F2331D29C461}
 		{648D1743-AC9A-406D-85B2-4CF8A42D5210} = {53ED7DFC-660D-4816-923C-70D4A33E529E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
