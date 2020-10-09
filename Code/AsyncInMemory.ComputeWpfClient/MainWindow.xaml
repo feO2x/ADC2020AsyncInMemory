@@ -24,7 +24,8 @@
                 20
             </TextBox>
         </StackPanel>
-        <Button Margin="0 0 0 20"
+        <Button x:Name="Button"
+                Margin="0 0 0 20"
                 Click="CalculateOnBackgroundThreadDecompiled">
             Calculate
         </Button>
