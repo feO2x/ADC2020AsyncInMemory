@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncInMemory.ComputeWpfCli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{B5FD6B1D-C32D-4D65-A413-2608E04B0DBE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Simple Example for Thread Stacks and Managed Heap", "1 Simple Example for Thread Stacks and Managed Heap", "{53ED7DFC-660D-4816-923C-70D4A33E529E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Simple Example for Thread Stacks and Managed Heap", "2 Simple Example for Thread Stacks and Managed Heap", "{53ED7DFC-660D-4816-923C-70D4A33E529E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExample", "SimpleExample\SimpleExample.csproj", "{648D1743-AC9A-406D-85B2-4CF8A42D5210}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleExample", "SimpleExample\SimpleExample.csproj", "{648D1743-AC9A-406D-85B2-4CF8A42D5210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Async Compute in WPF", "1 Async Compute in WPF", "{663ED9AB-CF48-4668-AEA1-5ECCF1AA8DB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{704A1447-4735-4CA9-A4DE-611687B3F8E5} = {663ED9AB-CF48-4668-AEA1-5ECCF1AA8DB7}
 		{648D1743-AC9A-406D-85B2-4CF8A42D5210} = {53ED7DFC-660D-4816-923C-70D4A33E529E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
