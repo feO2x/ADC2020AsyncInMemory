@@ -24,7 +24,7 @@ namespace AsyncInMemory.ComputeWpfClient
 
             Button.IsEnabled = false;
             ProgressRing.Visibility = Visibility.Visible;
-            ResultTextBlock.Text = string.Empty;
+            ResultTextBlock.Text = null;
 
             var lowestCommonMultiple = Math.CalculateLowestCommonMultiple(parsedNumber);
 
@@ -43,7 +43,7 @@ namespace AsyncInMemory.ComputeWpfClient
 
             Button.IsEnabled = false;
             ProgressRing.Visibility = Visibility.Visible;
-            ResultTextBlock.Text = string.Empty;
+            ResultTextBlock.Text = null;
 
             var lowestCommonMultiple = await Math.CalculateLowestCommonMultipleAsync(parsedNumber);
 
@@ -96,7 +96,7 @@ namespace AsyncInMemory.ComputeWpfClient
 
                 Button.IsEnabled = false;
                 ProgressRing.Visibility = Visibility.Visible;
-                ResultTextBlock.Text = string.Empty;
+                ResultTextBlock.Text = null;
 
                 var localTaskAwaiter = Math.CalculateLowestCommonMultipleAsync(ParsedNumber).GetAwaiter();
                 if (localTaskAwaiter.IsCompleted)
